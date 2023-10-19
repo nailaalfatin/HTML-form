@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form pengisian data diri</title>
+</head>
+<body>
+    <h2>form pengisian data</h2>
+    <form action="POST">
+
+        <!--text field-->
+        <label for="nama_depan">Nama depan</label>
+        <br>
+        <input type="text" name="nama_depan" id="nama_depan">
+        <br>
+        <label for="nama_depan">Nama belakang</label>
+        <br>
+        <input type="text" name="nama_belakang" id="nama_belakang">
+        <br> <br>
+        
+        <!--radio-->
+        <label for="gender">Jenis kelamin</label>
+        <br>
+        <input type="radio" name="gender" id="laki_laki" value="laki_laki">
+        <label for="laki_laki">laki-laki</label> <br>
+
+        <input type="radio" name="gender" id="perempuan" value="perempuan">
+        <label for="perempuan">perempuan</label> <br> <br>
+
+        <!--check box-->
+        <label for="hobby">hobby</label>
+        <br>
+        <input type="checkbox" id="mengaji" name="hobby" value="mengaji">
+        <label for="mengaji">mengaji</label> 
+        <br>
+        <input type="checkbox" id="lari-lari" name="hobby" value="lari-lari">
+        <label for="lari-lari">lari-lari</label> 
+        <br>
+        <input type="checkbox" id="diam" name="hobby" value="diam">
+        <label for="diam">diam</label> <br> <br>
+
+
+        <!--The <select> Element-->
+        <label for="aku itu"> aku itu :</label>
+        <br>
+        <select id="aku itu" name="aku itu" size="1" >
+        <option value="cantik">cantik</option>
+        <option value="maniezz">maniezz</option>
+        <option value="baik">baik</option>
+        <option value="solehah">solehah</option>
+        </select> <br> <br>
+
+        <!--The <textarea> Element-->
+        <label for="alamat">alamat</label> <br>
+        <textarea name="alamat" id="alamat" cols="15" rows="5">
+            aku anak baik
+        </textarea>
+
+        <br> <br>
+        <button type="submit">simpan</button>
+
+        <button type="button" onclick="alert('hai sayang')">Click me!</button>
+
+
+    </form>
+</body>
+</html>
